@@ -16,8 +16,8 @@
     }
   ],
   "autoload": {
-    "psr-0": {
-      "Phalcon\\": "glauberkyves/phalcon-sqlsrv"
+    "psr-4": {
+      "Phalcon\\": "Phalcon/"
     }
   }
 }
