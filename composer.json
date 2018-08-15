@@ -17,7 +17,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Phalcon\\Db\\Adapter\\Pdo\\Sqlsrv": "glauberkyves/phalcon-sqlsrv"
+      "Phalcon\\": "glauberkyves/phalcon-sqlsrv"
     }
   }
 }
