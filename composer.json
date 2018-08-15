@@ -13,6 +13,5 @@
 		"psr-0": {
 			"GlauberKyves\\Db\\Adapter\\Pdo\\Sqlsrv": ""
 		}
-	},
-	"target-dir":  "GlauberKyves/PhalconSqlsrv"
+	}
 }
