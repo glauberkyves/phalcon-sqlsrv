@@ -1,17 +1,23 @@
 {
-	"name":        "glauberkyves/phalcon-sqlsrv",
-	"description": "Phalcon - MS SQL Server (PDO) Adapter",
-	"keywords":    ["glauberkyves", "phalcon", "mssql", "sql server", "pdo sqlserver phalcon"],
-	"license":     "MIT",
-	"authors":     [
-		{
-			"name":  "Glauber Kyves",
-			"email": "glauberkyves@gmail.com"
-		}
-	],
-	"autoload":    {
-		"psr-0": {
-			"GlauberKyves\\Db\\Adapter\\Pdo\\Sqlsrv": ""
-		}
-	}
+  "name": "glauberkyves/phalcon-sqlsrv",
+  "description": "Phalcon - MS SQL Server (PDO) Adapter",
+  "keywords": [
+    "glauberkyves",
+    "phalcon",
+    "mssql",
+    "sql server",
+    "pdo sqlserver phalcon"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Glauber Kyves",
+      "email": "glauberkyves@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Phalcon\\Db\\Adapter\\Pdo\\Sqlsrv": "glauberkyves/phalcon-sqlsrv"
+    }
+  }
 }
