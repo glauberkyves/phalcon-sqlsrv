@@ -66,7 +66,7 @@ class Sqlsrv extends \Phalcon\Db\Adapter\Pdo implements \Phalcon\Db\AdapterInter
          * Set dialect class
          */
         if (isset($descriptor['dialectClass']) === false) {
-            $dialectClass = 'Phalcon\\Db\\Dialect\\' . $this->_dialectType;
+            $dialectClass = '\\Phalcon\\Db\\Dialect\\' . $this->_dialectType;
         } else {
             $dialectClass = $descriptor['dialectClass'];
         }

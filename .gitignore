@@ -7,7 +7,7 @@
 /app/logs/*
 !app/cache/.gitkeep
 !app/logs/.gitkeep
-/app/phpunit.xml
+/app/phpunit.xml'
 /build/
 /vendor/*
 /.idea/*
